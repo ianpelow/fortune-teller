@@ -13,14 +13,17 @@ public static void main(String[] args) {
 		String lastName = input.nextLine();
 		
 		
-		int x;
+		int a;
 		System.out.println("What is your age?"); 
-		x = input.nextInt();
+		a = input.nextInt();
 		String age = input.nextLine();
-		if ( x % 2 == 0 )
-		System.out.println("You will retire in 20 years. That sucks lulz");
-		else
-		System.out.println("You will die before you retire. lolololol pwned!!1!111!1!!!");
+		if ( a >= 25 ) {
+		System.out.println("You will retire within 40 years");
+		} else if (a < 25 && a > 0) {
+		System.out.println("You will die before you retire.");
+		} else {
+		System.out.println("You're not funny");
+		}
 		
 		
 
@@ -31,28 +34,40 @@ public static void main(String[] args) {
         birthMonth = input.nextLine();
 
         if (birthMonth.equalsIgnoreCase("January")) {
+        	System.out.println("You will be a billionaire");
 
         } else if (birthMonth.equalsIgnoreCase("February")) {
+        	System.out.println("You will be a billionaire");
 
         } else if (birthMonth.equalsIgnoreCase("March")) {
+        	System.out.println("You will never have more than $50,000");
 
         } else if (birthMonth.equalsIgnoreCase("April")) {
+        	System.out.println("You will be a millionaire");
         
         } else if (birthMonth.equalsIgnoreCase("May")) {
+        	System.out.println("You will never have more than $15,000");
         
         } else if (birthMonth.equalsIgnoreCase("June")) {
+        	System.out.println("You will never have more than $100,000");
         
         } else if (birthMonth.equalsIgnoreCase("July")) {
+        	System.out.println("You will never have more than $250,000");
         
         } else if (birthMonth.equalsIgnoreCase("August")) {
+        	System.out.println("You will be a millionaire");
         
         } else if (birthMonth.equalsIgnoreCase("September")) {
+        	System.out.println("You will be a billionaire");
         
         } else if (birthMonth.equalsIgnoreCase("October")) {
+        	System.out.println("You will be a millionaire");
         
         } else if (birthMonth.equalsIgnoreCase("November")) {
+        	System.out.println("You will be a billionaire");
         
         } else if (birthMonth.equalsIgnoreCase("December")) {
+        	System.out.println("You will never have more than $100,000");
         
         	}
         
@@ -71,50 +86,70 @@ public static void main(String[] args) {
         
         
         case ("Red"):
-        	System.out.println("Red");
+        case ("red"):      
+        	System.out.println("The next vehicle you purchase will be an exotic sports car.");
         	break;
         case "Orange":
-        	System.out.println("Orange");
+        case "orange":
+        	System.out.println("The next vehicle you purchase will be a sedan.");
         	break;
         case "Yellow":
-        	System.out.println("Yellow");
+        case "yellow":
+        	System.out.println("The next vehicle you purchase will be a convertible.");
         	break;
         case "Green":
-        	System.out.println("Green");
+        case "green":
+        	System.out.println("The next vehicle you purchase will be a coupe.");
         	break;
         case "Blue":
-        	System.out.println("Blue");
+        case "blue":
+        	System.out.println("The next vehicle you purchase will be a pickup truck.");
         	break;
         case "Indigo":
-        	System.out.println("Indigo");
+        case "indigo":
+        	System.out.println("The next vehicle you purchase will be an SUV.");
         	break;
         case "Violet":
-        	System.out.println("Violet");
+        case "violet":
+        	System.out.println("The next vehicle you purchase will be a minivan.");
         	break;
         case "Help":
+        case "help":
+        	System.out.println("If you don't know the ROYGBIV colors, you will total your current vehicle and be doomed to ride the COTA.");
         	System.out.println("Red, Orange, Yellow, Green, Blue, Indigo, Violet");
         	break;
         default:
-            System.out.println("Invalid color.");
+            System.out.println("Invalid color. You will lose your legs and lose races to Lt. Dan every day for the rest of your life.");
             break;
         	}
        
         System.out.println("How many siblings do you have?");
-		String numberOfSiblings = input.nextLine();
 		int s;
 		s = input.nextInt();
-		if ( s < 0 )
-		System.out.println("You should live 6ft. in the ground. You're not funny.");
-		else
-		System.out.println("You will die before you retire. lolololol pwned!!1!111!1!!!");
-
+		if ( s == 0 ) {
+			System.out.println("The next place you live will be a single family home.");
+		} else if ( s == 1) {
+			System.out.println("The next place you live will be a condo.");
+		} else if ( s == 2) {
+			System.out.println("The next place you live will be a downtown Columbus, Ohio condo where you can watch the fireworks from your balcony during Red White and Boom and all of the other residents in the building are hot chicks. All single and ready to mingle, man. (I obviously have two siblings)");
+		} else if ( s == 3) {
+			System.out.println("The next place you live will be an apartment.");
+		} else if ( s >= 4) {
+			System.out.println("The next place you live  will be a trailer in a mobile home park.");
+		} else {
+		System.out.println("You will be homeless and live under the E. Broad St. bridge on Interstate 71. You're not funny.");
         }
+		
+		
+		System.out.println("I think that outghta give us enough insight into your future. Let's sum up your results:");
+		System.out.println();
+	}
+
 }
-
-
         
         
-        	
+        	/*[First Name]* *[Last Name]* will retire in *[# of years]* with *[bank balance]* in the bank,
+a vacation home in *[location]*, and travel by *[mode of transporation]*/
         	
         	
         	
