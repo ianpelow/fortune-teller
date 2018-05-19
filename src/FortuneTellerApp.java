@@ -149,7 +149,7 @@ public static void main(String[] args) {
         
         
         	/*[First Name]* *[Last Name]* will retire in *[# of years]* with *[bank balance]* in the bank,
-a vacation home in *[location]*, and travel by *[mode of transporation]*/
+a vacation home in *[location]*, and travel by *[mode of transportation]*/
         	
         	
         	
