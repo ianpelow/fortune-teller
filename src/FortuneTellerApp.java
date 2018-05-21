@@ -74,7 +74,7 @@ public static void main(String[] args) {
         
 
         
-       Scanner colors = new Scanner(System.in);
+       
 
         System.out.println("What is your favorite ROYGBIV color? Enter \"Help\" If you are unsure of the ROYGBIV colors."); 
 
@@ -143,6 +143,9 @@ public static void main(String[] args) {
 		
 		System.out.println("I think that outghta give us enough insight into your future. Let's sum up your results:");
 		System.out.println();
+		
+
+	
 	}
 
 }
