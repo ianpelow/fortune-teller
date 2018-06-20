@@ -24,11 +24,8 @@ public class FortuneTellerApp {
 		}
 
 		System.out.println("In what month were you born?");
-
 		String birthMonth;
-
 		birthMonth = input.nextLine();
-
 		if (birthMonth.equalsIgnoreCase("January")) {
 			System.out.println("You will be a billionaire");
 
@@ -67,51 +64,49 @@ public class FortuneTellerApp {
 
 		}
 
-		System.out.println("What is your favorite ROYGBIV color? Enter \"Help\" If you are unsure of the ROYGBIV colors.");
-
+		System.out.println(
+				"What is your favorite ROYGBIV color? Enter \"Help\" If you are unsure of the ROYGBIV colors.");
 		String favoriteColor = null;
-
 		favoriteColor = input.nextLine();
 		switch (String.valueOf(favoriteColor)) {
-
-		case ("Red"):
-		case ("red"):
-			System.out.println("The next vehicle you purchase will be an exotic sports car.");
-			break;
-		case "Orange":
-		case "orange":
-			System.out.println("The next vehicle you purchase will be a sedan.");
-			break;
-		case "Yellow":
-		case "yellow":
-			System.out.println("The next vehicle you purchase will be a convertible.");
-			break;
-		case "Green":
-		case "green":
-			System.out.println("The next vehicle you purchase will be a coupe.");
-			break;
-		case "Blue":
-		case "blue":
-			System.out.println("The next vehicle you purchase will be a pickup truck.");
-			break;
-		case "Indigo":
-		case "indigo":
-			System.out.println("The next vehicle you purchase will be an SUV.");
-			break;
-		case "Violet":
-		case "violet":
-			System.out.println("The next vehicle you purchase will be a minivan.");
-			break;
-		case "Help":
-		case "help":
+			case ("Red"):
+			case ("red"):
+				System.out.println("The next vehicle you purchase will be an exotic sports car.");
+				break;
+			case "Orange":
+			case "orange":
+				System.out.println("The next vehicle you purchase will be a sedan.");
+				break;
+			case "Yellow":
+			case "yellow":
+				System.out.println("The next vehicle you purchase will be a convertible.");
+				break;
+			case "Green":
+			case "green":
+				System.out.println("The next vehicle you purchase will be a coupe.");
+				break;
+			case "Blue":
+			case "blue":
+				System.out.println("The next vehicle you purchase will be a pickup truck.");
+				break;
+			case "Indigo":
+			case "indigo":
+				System.out.println("The next vehicle you purchase will be an SUV.");
+				break;
+			case "Violet":
+			case "violet":
+				System.out.println("The next vehicle you purchase will be a minivan.");
+				break;
+			case "Help":
+			case "help":
 			System.out.println("If you don't know the ROYGBIV colors, you will total your current vehicle and be doomed to ride the COTA.");
 			System.out.println("Red, Orange, Yellow, Green, Blue, Indigo, Violet");
-			break;
-		default:
-			System.out.println("Invalid color. You will lose your legs and lose races to Lt. Dan every day for the rest of your life.");
-			break;
+				break;
+			default:
+				System.out.println("Invalid color. You will lose your legs and lose races to Lt. Dan every day for the rest of your life.");
+				break;
 		}
-
+		
 		System.out.println("How many siblings do you have?");
 		int s;
 		s = input.nextInt();
@@ -135,8 +130,3 @@ public class FortuneTellerApp {
 	}
 
 }
-        	
-        	
-        	
-        	
-
